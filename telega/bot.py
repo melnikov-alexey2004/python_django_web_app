@@ -50,7 +50,8 @@ def handle_text(message):
 
         bot.send_message(message.chat.id, "".join(txt))
     else:
-        bot.send_message(message.chat.id, 'Вы написали: ' + message.text)
+        pass
+        # bot.send_message(message.chat.id, 'Вы написали: ' + message.text)
 
 
 # Запускаем бота
